@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Dinheiro</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#2e7d32">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      text-align: center;
+      padding: 20px;
+    }
+    button {
+      display: block;
+      width: 100%;
+      margin: 10px 0;
+      padding: 15px;
+      font-size: 16px;
+      background: #2e7d32;
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+
+<h1>💰 Dinheiro</h1>
+<p><b>Dinheiro todos têm,<br>mas são poucos que o entendem!</b></p>
+
+<button onclick="alert('Dinheiro é um meio de troca e reserva de valor.')">
+O que é Dinheiro
+</button>
+
+<button onclick="alert('Câmbio é a troca entre moedas de países.')">
+Câmbio
+</button>
+
+<button onclick="alert('Investimentos ajudam o dinheiro a crescer no tempo.')">
+Investimentos
+</button>
+
+<button onclick="alert('Simulador financeiro em breve.')">
+Simulador
+</button>
+
+<script>
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('sw.js');
+}
+</script>
+
+</body>
+</html>
